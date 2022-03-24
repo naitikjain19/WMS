@@ -1,4 +1,4 @@
-# WMS
+# Waste Management System
 
 This website was developed as a part of final year project for B.E(Computer Engineering) 2022
 
