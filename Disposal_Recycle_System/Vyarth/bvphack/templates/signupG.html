@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+{% load bootstrap3 %}
+
+{% block headblock %}
+
+ <link rel="stylesheet" type="text/css" href="{% static 'css/login.css' %}">
+{% endblock %}
+
+{% block content %}
+<div class="container jumbotron">
+    <h2>Please fill the following information to dispose off your waste!</h2>
+    <h3>We realise that, generating waste is not in your hands, but appropriately disposing it, is! Kudos on your efforts.</h3>
+    <form method="POST" class="form">
+
+        {% csrf_token %}
+        {% bootstrap_form form %}
+
+
+        <input type="submit" value="Submit Details" class="btn btn-default">
+    </form>
+</div>
+<h3>As an added incentive on your nobel approach to make India a cleaner nation, we are initiating a Paytm Cashback in your wallet.</h3>
+<h5>*To be added soon!! Till then continue the good work!</h5>
+{% endblock %}
