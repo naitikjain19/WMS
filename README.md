@@ -42,5 +42,13 @@ Here are some of the screenshots of the website:
 ![Screenshot (39)](https://user-images.githubusercontent.com/60510325/159985971-ae6c32d8-a2da-454d-8262-7af889e6ac4a.png)
 ![Screenshot (40)](https://user-images.githubusercontent.com/60510325/159985980-a964563a-3a49-4cc1-86ee-1e77a35214f6.png)
 ![Screenshot (41)](https://user-images.githubusercontent.com/60510325/159985986-b631666e-90a5-4b28-b6dc-af7c697ee0b6.png)
-
-
+![Screenshot (97)](https://user-images.githubusercontent.com/60510325/159987682-e97e3f9d-5312-43c9-ade4-094296bb37f0.png)
+![Screenshot (98)](https://user-images.githubusercontent.com/60510325/159987689-6e65653c-842c-41b8-85e6-3c4c7c1d5fdd.png)
+![Screenshot (99)](https://user-images.githubusercontent.com/60510325/159987695-ef07a566-7379-4e31-8360-ecaba73eed3d.png)
+![Screenshot (100)](https://user-images.githubusercontent.com/60510325/159987701-ea6eb505-465e-4139-8fb8-d0af05c53f6c.png)
+![Screenshot (101)](https://user-images.githubusercontent.com/60510325/159987706-589b6308-aeea-414d-a0d2-1c21e95c58d1.png)
+![Screenshot (102)](https://user-images.githubusercontent.com/60510325/159987714-c6ba09a5-b02e-437f-ae8b-4e0f2c54eaa6.png)
+![Screenshot (103)](https://user-images.githubusercontent.com/60510325/159987720-c864bc3c-c7d1-4355-baf5-e4f013b65aac.png)
+![Screenshot (104)](https://user-images.githubusercontent.com/60510325/159987727-3a09be7c-569f-4429-a83b-3cb891b2eaaf.png)
+![Screenshot (105)](https://user-images.githubusercontent.com/60510325/159987730-6df233d6-94de-4976-9008-85bd1abeda6e.png)
+![Screenshot (106)](https://user-images.githubusercontent.com/60510325/159987733-90254ae4-4505-442f-95a5-5f6ca1fa8cb7.png)
