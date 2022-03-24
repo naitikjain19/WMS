@@ -1,0 +1,453 @@
+<!-- <?php
+// Initialize the session
+session_start();
+?> -->
+
+
+<html>
+
+<head>
+    <title>WASTE MANAGEMENT WEBSITE</title>
+    <link rel="icon" href="https://www.pinclipart.com/picdir/middle/136-1365969_waste-handling-clipart-uploaded-by-the-best-user.png" type="image/x-icon">
+
+
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="style1.css"> -->
+    <link rel="stylesheet" href="stylepop.css">
+</head>
+
+<body>
+<!-- <?php
+        if ($_SERVER["REQUEST_METHOD"] == "POST") {
+        echo '<script language="javascript">';
+        echo 'alert("Congratulations,Payment Successful!!! Your package is booked successfully!!! GET READY FOR AN UNFORGETTABLE TRIP!!!")';
+        echo '</script>';
+    }
+    ?> -->
+    <section class="header" id="myHeader">
+        <div class="container">
+            <a href="index.html"><img src="https://www.pinclipart.com/picdir/middle/136-1365969_waste-handling-clipart-uploaded-by-the-best-user.png"></a>  
+            <!-- <a href="logout.php"><button type="button" onclick="toggle()" class="login-btn" id="login-btn">Logout</button></a> -->
+            <!-- <a href="resetpassword.php"><button type="button" onclick="toggle()" class="login-btn" id="login-btn">ResetPassword</button></a> -->
+            <!-- <a href="login.php"><button type="button" onclick="toggle()" class="login-btn" id="login-btn">Login</button></a> -->
+            <a href="terms.html"><button type="button" onclick="toggle()" class="login-btn" id="login-btn">Terms</button></a>
+            
+            <a href="#services"><button type="button" onclick="toggle()" class="login-btn" id="dropbtn">Services</button></a>
+            <a href="privacy.html"><button type="button" onclick="toggle()" class="login-btn" id="login-btn">Privacy Policy</button></a>
+            <a href="http://flask-app-wms-0000.herokuapp.com/"><button type="button" onclick="toggle()" class="login-btn" id="login-btn">Classify</button></a>
+            <a href="#footer"><button type="button" onclick="toggle()" class="login-btn" id="login-btn">Contact</button></a>
+            <!-- <button type="button" onclick="toggle()" class="login-btn" id="login-btn">Contact Us</button> -->
+            <a href="#section-2"><button type="button" onclick="toggle()" class="login-btn" id="login-btn">About</button></a>
+            <a href="index.html"><button type="button" onclick="toggle()" class="login-btn" id="login-btn">Home</button></a>
+
+        </div>
+
+        <!-- <script>
+    window.onscroll = function() {myFunction()};
+    
+    var header = document.getElementById("myHeader");
+    var sticky = header.offsetTop;
+    
+    function myFunction() {
+      if (window.pageYOffset > sticky) {
+        header.classList.add("sticky");
+      } else {
+        header.classList.remove("sticky");
+      }
+    }
+    </script> -->
+        <!-- <div class="popup">
+                <div class="popup-content">
+                    <img src="./images/close1.png" alt="Close" class="close">
+                    <img src="./images/user.png" alt="User">
+                    <input type="text" class="input" placeholder="Username">
+                    <input type="password" class="input" placeholder="Password">
+                    <a href="#" class="button">Login</a>
+                </div>
+                  -->
+
+
+    </section>
+    <section class="background">
+
+        <h1>MANAGE YOUR WASTE</h1>
+        <p>LET US CLEAN THE WORLD!!!!</p>
+
+
+        <div class="input-group">
+            <input type="text" class="form-control" placeholder="Search waste management services">
+
+
+
+            <div class="input-group-append">
+                <button type="submit" onclick="myFunction()" class="input-group-text btn">Search</button>
+                <script>
+                    function myFunction() {
+                        alert("Sorry,this feature is under construction");
+                    }
+                </script>
+            </div>
+        </div>
+    </section>
+    <section class="about">
+        <div class="about section" id="section-2">
+            <div class="about-head text-center">
+                <h3>About Us</h3>
+                <span></span><img src="images/about-img.png" alt=""><span></span>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 about-grids">
+                        <h4><span class="icon1"></span>Our Vision</h4>
+                        <p>To ensure that the garbage is managed efficiently and effectively at household as well as industrial level by using the services provided by us.</p>
+                    </div>
+                    <div class="col-md-4 about-grids grid2">
+                        <h4><span class="icon2"></span>Our Mission</h4>
+                        <p>Our mission is to maximize resource value,while minimizing-and even eliminating-environmental impact so that our economy and our environment can thrive.</p>
+                    </div>
+                    <div class="col-md-4 about-grids">
+                        <h4><span class="icon3"></span>Safety Information</h4>
+                        <p>At Clean Management, safety is paramount. We take the time to do our job to protect the environment, people, equipment & facilities.</p>
+                        <!-- <div class="right"><a href="aboutus.php"><input type="button" value="Read More" name="sbmt"></a></div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="features">
+        <h1>More Information</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="feature-box">
+                        <div class="feature-img">
+                            <a href="http://www.tri-citiesdisposal.com/the-five-rs"><img src="./images/5rs.png"></a>
+                            <div class="price">
+                                <p>5R's</p>
+                            </div>
+
+                            <!-- <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                            </div> -->
+                        </div>
+                        <div class="feature-details">
+                            <h4>5 R's!</h4>
+                            <p>Green Alternatives – The FIVE R's: Reduce, Reuse, Repair, Rot, Recycle. Incorporating this methodology into your business' waste reduction and recycling efforts will minimize landfill waste and help take your recycling program to the next level. </p>
+                            <!-- <div>
+                                <span><i class="fa fa-map-marker"> Bangalore </i></span>
+                                <span><i class="fa fa-sun-o"></i>4 Days</span>
+                                <span><i class="fa fa-moon-o"></i>3 Nights</span>
+                            </div> -->
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-box">
+                        <div class="feature-img">
+                            <a href="https://www.metropolitantransferstation.com.au/blog/modern-waste-management-techniques/"><img src="./images/waste_manage.jpg"></a>
+                            <div class="price">
+                                <p>WMT</p>
+                            </div>
+
+                            <!-- <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div> -->
+                        </div>
+                        <div class="feature-details">
+                            <h4>Waste Management Techqs</h4>
+                            <p>With a growing population all over the world and climate change problems potentially threatening the stability of certain areas around the world, levels of consumption and pollution are two areas that forward thinkers are examining closely.</p>
+                            <!-- <div>
+                                <span><i class="fa fa-map-marker"> Mumbai </i></span>
+                                <span><i class="fa fa-sun-o"></i>4 Days</span>
+                                <span><i class="fa fa-moon-o"></i>3 Nights</span>
+                            </div> -->
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-box">
+                        <div class="feature-img">
+                            <a href="https://vikaspedia.in/energy/environment/waste-management/solid-waste-management-rules#:~:text=No%20person%20should%20throw%2C%20burn,for%20Littering%20and%20Non%2Dsegregation."><img src="./images/SWM.jpg"></a>
+                            <div class="price">
+                                <p>Rules</p>
+                            </div>
+
+                            <!-- <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half-o"></i>
+                                <i class="fa fa-star-o"></i>
+                            </div> -->
+                        </div>
+                        <div class="feature-details">
+                            <h4>Solid Waste Management!</h4>
+                            <p>Waste management in India falls under (MoEF&CC). In 2016, this ministry released the Solid Wastage Management (SWM) Rules, which replaced by the Municipal Solid Waste Rules, and 2000 of which had been in place for 16 years.</p>
+                            <!-- <span><i class="fa fa-map-marker"> Surat </i></span>
+                            <span><i class="fa fa-sun-o"></i>4 Days</span>
+                            <span><i class="fa fa-moon-o"></i>3 Nights</span> -->
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+        </div>
+
+
+
+
+    </section>
+    <section class="gallery" id="services" style="position: relative;">
+        <h1>Services</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="gallery-box">
+                        <a href="http://flask-app-wms-0000.herokuapp.com/"><img src="./images/classify1.jpg"></a>
+                        <h4>Classify Your Waste Articles</h4>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="gallery-box">
+                        <a href="http://wms-disposal-recycle-0000.herokuapp.com/"><img src="./images/dispose_recycle.jpg"></a>
+                        <h4>Dispose & Recycle Waste</h4>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="gallery-box">
+                        <a href="http://wms-gtms-0000.herokuapp.com/"><img src="./images/gtms.jpg"></a>
+                        <h4>Garbage Truck Monitoring System</h4>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="gallery-box">
+                        <a href="http://wms-glms-0000.herokuapp.com/"><img src="./images/glms.jpg"></a>
+                        <h4>Garbage Level Monitoring System</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="popupDet" id="pop1" style="display: none;">
+            <div class="pocketImage">
+                <img src="./images/Hollywood-min.jpg" alt="Hollywood" class="horizontalImg">
+                <h3>Hollywood</h3>
+            </div>
+            <div class="pocketImage">
+                <img src="./images/Disneyland-Resort-min.jpg" alt="Disneyland-Resort" class="horizontalImg">
+                <h3>Disneyland Resort</h3>
+            </div>
+            <div class="pocketImage">
+                <img src="./images/Santa-Monica-Pier-min.jpg" alt="Santa Monica Pier" class="horizontalImg">
+                <h3>Santa Monica Pier</h3>
+            </div>
+        </div>
+
+        <div class="popupDet" id="pop2" style="display: none;">
+            <div class="pocketImage">
+                <img src="./images/kanch mandir.jpg" alt="kanch mandir" class="horizontalImg">
+                <h3>Kanch Mandir</h3>
+            </div>
+            <div class="pocketImage">
+                <img src="./images/center-musuem-indore.jpg" alt="center-musuem-indore" class="horizontalImg">
+                <h3>Center Musuem Indore</h3>
+            </div>
+            <div class="pocketImage">
+                <img src="./images/Rajwada palace.jpg" alt="Rajwada palace" class="horizontalImg">
+                <h3>Rajwada Palace</h3>
+            </div>
+        </div>
+
+        <div class="popupDet" id="pop3" style="display: none;">
+            <div class="pocketImage">
+                <img src="./images/andharban.jpg" alt="andharban" class="horizontalImg">
+                <h3>Andharban</h3>
+            </div>
+            <div class="pocketImage">
+                <img src="./images/Krushnai Water Park.jpg" alt="Krushnai Water Park" class="horizontalImg">
+                <h3>Krushnai Water Park</h3>
+            </div>
+            <div class="pocketImage">
+                <img src="./images/panshet dam.jpg" alt="panshet dam" class="horizontalImg">
+                <h3>Panshet Dam</h3>
+            </div>
+        </div>
+
+        <div class="popupDet" id="pop4" style="display: none;">
+            <div class="pocketImage">
+                <img src="./images/Birla temple.jpg" alt="Birla temple" class="horizontalImg">
+                <h3>Birla temple</h3>
+            </div>
+            <div class="pocketImage">
+                <img src="./images/Ramoji Film City.jpg" alt="Ramoji Film City" class="horizontalImg">
+                <h3>Ramoji Film City</h3>
+            </div>
+            <div class="pocketImage">
+                <img src="./images/Golconda Fort.jpg" alt="Golconda Fort" class="horizontalImg">
+                <h3>Golconda Fort</h3>
+            </div>
+        </div>
+        <script src="./pop.js"></script>
+    </section>
+    <section class="banner">
+        <div class="banner-highlights">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <h2>SWACHH BHARAT ABHIYAAN</h2>
+                        <p>A initiative taken by our honorable Prime Minister Of India</p>
+
+                    </div>
+                    <div class="col-md-4">
+                        <a href="https://swachhbharat.mygov.in/"><button type="button" class="booking-btn">Know More</button></a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="users-feedback">
+        <h1>Visitors Review</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 pull-left">
+                    <div class="user-review">
+                        <p>The garbage truck can be monitored easily by using the service provided!!</p>
+                        <h5>Naitik Jain</h5>
+                        <small>India</small>
+                    </div>
+                    <img src="./images/f3.jpg">
+                </div>
+                <div class="col-md-4 pull-left">
+                    <div class="user-review">
+                        <p>This site is helpful.The garbage level can be monitored and you can classify your waste!!!</p>
+                        <h5>Dhruv Jain</h5>
+                        <small>India</small>
+                    </div>
+                    <img src="./images/f3.jpg">
+                </div>
+                <div class="col-md-4 pull-left">
+                    <div class="user-review">
+                        <p>It really helped a lot in managing my waste by using disposal recycle service!!!</p>
+                        <h5>Aryan Jain</h5>
+                        <small>India</small>
+                    </div>
+                    <img src="./images/f3.jpg">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="users">
+
+        <div class="routes">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 routes-left wow fadeInRight animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInRight;">
+                        <div class="rou-left">
+                            <a href="#"><i class="fa fa-user"></i></a>
+                        </div>
+                        <div class="rou-rgt wow fadeInDown animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInDown;">
+                            <h3>100+</h3>
+                            <p>Enquiries</p>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="col-md-4 routes-left">
+                        <div class="rou-left">
+                            <a href="#"><i class="fa fa-user"></i></a>
+                        </div>
+                        <div class="rou-rgt">
+                            <h3>300</h3>
+                            <p>Registered users</p>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="col-md-4 routes-left wow fadeInRight animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInRight;">
+                        <div class="rou-left">
+                            <a href="#"><i class="fa fa-ticket"></i></a>
+                        </div>
+                        <div class="rou-rgt">
+                            <h3>1000+</h3>
+                            <p>Visitors</p>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="embed">
+        <div class="container">
+            <div class="row">
+                <div>
+                    <!-- <a href="index.php"><img src="./images/logo.jpg" class="footer-logo"></a>
+                    <p>A website which will make you travel across the world!!!</p> -->
+                    
+                    <iframe width="1150" height="500" src="https://www.youtube.com/embed/4JDGFNoY-rQ?autoplay=1&mute=1&loop=1"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer" id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <a href="index.html"><img src="https://www.pinclipart.com/picdir/middle/136-1365969_waste-handling-clipart-uploaded-by-the-best-user.png" class="footer-logo"></a>
+                    <p>A website which will make you manage your waste efficiently!!!</p>
+                </div>
+                <div class="col-md-3">
+                    <h4>Features</h4>
+                    <p>Classification Of Waste Articles</p>
+                    <p>Garbage Truck Monitoring System</p>
+                    <p>Garbage Level Monitoring System</p>
+                    <p>Disposal & Recycle Your Waste<p>
+                    <p>Waste Management Services<p>
+                    <p>Registeration in each services</p>
+                    <p>Users Review</p>
+                    <p>Get information about how to manage your waste</p>
+
+                </div>
+                <div class="col-md-3">
+
+                    <h4>Quick contact</h4>
+                    <p><i class="fa fa-phone-square"></i> +91 9876543210</p>
+                    <p><i class="fa fa-envelope"></i> naitikjain@mctrgit.ac.in</p>
+                    <p><i class="fa fa-envelope"></i> dhruvkumarjain@mctrgit.ac.in</p>
+                    <p><i class="fa fa-envelope"></i> aryanjain@mctrgit.ac.in</p>
+
+                    <p><i class="fa fa-home"></i>RGIT,Mumbai</p>
+                </div>
+                <div class="col-md-3">
+                    <h4>Follow Us on</h4>
+                    <p><i class="fa fa-facebook-official"></i> Facebook</p>
+                    <p><i class="fa fa-youtube-play"></i> Youtube</p>
+                    <p><i class="fa fa-Twitter"></i> Twitter</p>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Developed<i class="fa fa-heart"> by Naitik Jain, Dhruv Jain, Aryan Jain</i></p>
+        </div>
+    </section>
+</body>
+
+</html>

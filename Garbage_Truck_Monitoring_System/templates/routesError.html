@@ -1,0 +1,50 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Routes</title>
+    <link rel="icon" href="https://www.pinclipart.com/picdir/middle/136-1365969_waste-handling-clipart-uploaded-by-the-best-user.png" type="image/x-icon">
+    <link rel="stylesheet" href="{% static  'css/bootstrap.min.css'%}" />
+
+</head>
+<body>
+{% if  capErr  == '1'%}
+    <!-- <p>The garbage to be collected is more than the capacity of all trucks combined increase the number of trucks of cumulative capacity{{ cap_diff }}</p> -->
+    <div class="container">
+        <h2>Example:-(Screenshots)<a href="{% url 'index'%}"><button style="margin-left: 50%;font-size: 20px;">Home</button></a></h2>
+        <p style="color:red;font-size:x-large;text-align: justify;">In case,if routes are possible to be generated for the given coordinates,the images for the same are shown below else,it will thrown an error as "The garbage to be collected is more than the capacity of all trucks combined increase the number of trucks of cumulative capacity{{ cap_diff }}."</p>
+    </div>
+    <div class="container">
+        <!-- <div class="row"> -->
+            <div style="margin: 0 auto;">
+                <h5>1)Dashboard</h5>
+                <img style="max-height:100%;max-width:100%;"src="{%static 'images/dashboard.jpeg' %}">
+            </div>
+            <div style="margin: 20px;">
+                <h5>2)Add Bin</h5>
+                <img style="max-height:100%;max-width:100%;"src="{%static 'images/addBin.jpeg' %}">
+            </div>
+            <div style="margin: 20px;">
+                <h5>3)Bin Status</h5>
+                <img style="max-height:100%;max-width:100%;"src="{%static 'images/binStatus.jpeg' %}">
+            </div>
+            <div style="margin: 20px;">
+                <h5>4)Routes</h5>
+                <img style="max-height:100%;max-width:100%;"src="{%static 'images/routes.jpeg' %}">
+            </div>
+            <div style="margin: 20px;">
+                <h5>5)CVRP Algorithm</h5>
+                <img style="max-height:100%;max-width:100%;"src="{%static 'images/CVRP.jpeg' %}">
+            </div>
+            
+
+            
+         <!-- </div> -->
+    </div>
+{% else %}
+    <p>The routes cannot be generated</p>
+{% endif %}
+</body>
+</html>

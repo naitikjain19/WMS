@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vehicles</title>
+    <link rel="icon" href="https://www.pinclipart.com/picdir/middle/136-1365969_waste-handling-clipart-uploaded-by-the-best-user.png" type="image/x-icon">
+
+</head>
+<body>
+{% for v in vehicleId %}
+    <a href="/g-routes/{{ v }}"><li>{{ v }}</li></a>
+{% endfor %}
+</body>
+</html>

@@ -1,0 +1,36 @@
+#pop1{
+    top: 10px;
+    left: 380px;
+}
+#pop2{
+    top: 10px;
+    left: 660px;
+}
+#pop3{
+    top: 10px;
+    left: 960px;
+}
+#pop4{
+    top: 10px;
+    left: 660px;
+}
+.popupDet{
+    position: absolute;
+  }
+
+  .horizontalImg{
+    width: 300px;
+    height: 120px;
+  }
+  .pocketImage h3{
+    width: 300px;
+    text-align: center;
+    margin-top: 1px;
+    margin-bottom: 2px;
+    background-color: black;
+    color: white;
+    
+  }
+  .pocketImage{
+    width: 300px;
+  }
