@@ -15,7 +15,7 @@ import json
 
 
 config = {
-	# 'apiKey': "AIzaSyB6s7DSe9M6MZk7g77cMTuoqIO6d-ebKwI",
+	# 'apiKey': "",
     # 'authDomain' : "garbage-truck-monitoring.firebaseapp.com",
     # 'databaseURL' : "https://garbage-truck-monitoring.firebaseio.com",
     # 'projectId' : "garbage-truck-monitoring",
@@ -23,7 +23,7 @@ config = {
     # 'messagingSenderId' : "549306067582",
     # 'appId' : "1:549306067582:web:bbaeac9ec829045099c62f",
     # 'measurementId' : "G-X9JCRW3TR0"
-    'apiKey': "AIzaSyAk_hv034foeY873leVXUpHsR2QMVjUllY",
+    'apiKey': "",
     'authDomain': "garbage-truck-system.firebaseapp.com",
     'databaseURL': "https://garbage-truck-system-default-rtdb.firebaseio.com",
     'projectId': "garbage-truck-system",
@@ -73,7 +73,7 @@ def get_latlong(request) :
     import pyrebase
 
     config = {
-        'apiKey': "AIzaSyAk_hv034foeY873leVXUpHsR2QMVjUllY",
+        'apiKey': "",
         'authDomain': "garbage-truck-system.firebaseapp.com",
         'databaseURL': "https://garbage-truck-system-default-rtdb.firebaseio.com",
         'projectId': "garbage-truck-system",
@@ -129,7 +129,7 @@ def get_latlong2(request) :
     import pyrebase
 
     config = {
-        'apiKey': "AIzaSyB6s7DSe9M6MZk7g77cMTuoqIO6d-ebKwI",
+        'apiKey': "",
         'authDomain': "garbage-truck-monitoring.firebaseapp.com",
         'databaseURL': "https://garbage-truck-monitoring.firebaseio.com",
         'projectId': "garbage-truck-monitoring",
@@ -163,7 +163,7 @@ def get_latlong2(request) :
    import pyrebase
 
    config = {
-       'apiKey': "AIzaSyAk_hv034foeY873leVXUpHsR2QMVjUllY",
+       'apiKey': "",
         'authDomain': "garbage-truck-system.firebaseapp.com",
         'databaseURL': "https://garbage-truck-system-default-rtdb.firebaseio.com",
         'projectId': "garbage-truck-system",
@@ -574,7 +574,7 @@ def get_depot_location():
 
 def generate_routes(request):
     data = {}
-    data['API_key'] = 'AIzaSyAO2z9WtUvgop98jVAbWuEXdNGaukGWRyU'
+    data['API_key'] = ''
     # data['addresses'] = ['19.312251,72.8513579',  # depot
     #                      '19.3844215,72.8221597',
     #                      '19.3084312,72.8489729',
@@ -853,7 +853,7 @@ def get_bin_cap_test(bin_addr):
 
 def get_bin_address_test():
     config = {
-        'apiKey': "AIzaSyAk_hv034foeY873leVXUpHsR2QMVjUllY",
+        'apiKey': "",
         'authDomain': "garbage-truck-system.firebaseapp.com",
         'databaseURL': "https://garbage-truck-system-default-rtdb.firebaseio.com",
         'projectId': "garbage-truck-system",
@@ -899,7 +899,7 @@ def get_bin_address_test():
 
 def generate_routes_test(request):
     data = {}
-    data['API_key'] = 'AIzaSyAO2z9WtUvgop98jVAbWuEXdNGaukGWRyU'
+    data['API_key'] = ''
     # data['addresses'] = ['19.312251,72.8513579',  # depot
     #                      '19.3844215,72.8221597',
     #                      '19.3084312,72.8489729',
