@@ -2,6 +2,10 @@
 
 This website was developed as a part of final year project for B.E(Computer Engineering) 2022
 
+Classification Model:
+
+https://colab.research.google.com/drive/1q5OKNdZuji8fUVYoojTlxMMCwLWXY_AL?usp=sharing
+
 Waste Management System with different services integrated as follows:
 
 1)Waste Classification System (Using CNN Model)
